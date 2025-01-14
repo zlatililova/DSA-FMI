@@ -40,6 +40,27 @@ Implement a class `DfsTraversalsCollection` that represents a collection of diff
    - or `(a1 == b1 and a2 < b2)`  
    - or `(a1 == b1, a2 == b2, and a3 < b3)`  
    - and so on.
+  
+### Example
+```plaintext
+Traversal 1: 0 1 2 3 
+Tree: (0→1), (1→2), (1→3)
+Back: (2→1), (3→0)
+Forward: (0→2)
+Cross: None
+
+Traversal 2: 0 1 3 2 
+Tree: (0→1), (1→3), (1→2)
+Back: (3→0), (2→1)
+Forward: (0→2)
+Cross: None
+
+Traversal 3: 0 2 1 3 
+Tree: (0→2), (2→1), (1→3)
+Back: (1→2), (3→0)
+Forward: (0→1)
+Cross: None
+```
 
 # Task 2 : Unordered Set
 
