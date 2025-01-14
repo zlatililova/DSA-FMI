@@ -57,7 +57,7 @@ www.youtube.com/watch?v=dQw4w9WgXcQ 150676023
 	•	Handle memory efficiently while following good coding practices.
 	•	Sorting should account for ties in URL and timestamp.
 
-# Task 2
+# Task 2 : Bool Vector
 
 ## Objective
 Implement a specialized version of the `Vector` class template for storing boolean values (`bool`). This class must optimize memory usage by representing each boolean value using only **one bit**.
